@@ -3,6 +3,9 @@
   "author": {
     "name": "Jack Wagstaffe"
   },
+  "scripts": {
+    "start": "node ./index.js"
+  },
   "type": "module",
   "dependencies": {
     "dotenv": "^10.0.0",

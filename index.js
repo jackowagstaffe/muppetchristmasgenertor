@@ -36,6 +36,10 @@ const getTitleFromData = (data) => {
         title = title.substr(4)
     }
 
+    if (title.startsWith('A ')) {
+        title = title.substr(2)
+    }
+
     return `The Muppet Christmas ${title}`
 }
 

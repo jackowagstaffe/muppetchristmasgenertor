@@ -36,7 +36,7 @@ const getTitleFromData = (data) => {
         title = title.substr(4)
     }
 
-    return `A Muppet Christmas ${title}`
+    return `The Muppet Christmas ${title}`
 }
 
 const generateMovie = (latestMovieId, res, attempts) => {
